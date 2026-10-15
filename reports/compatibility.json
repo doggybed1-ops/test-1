@@ -1,0 +1,2615 @@
+{
+  "date": "2026-10-15T00:56:45.587Z",
+  "runtimes": {
+    "lua51": "wasmoon-lua5.1 1.18.12 (PUC Lua 5.1 WASM)",
+    "lua53": "Fengari 0.1.5 (Lua 5.3)",
+    "luau": "luau-web 1.4.0 Asyncify (Luau WASM; protected-call probe enabled)",
+    "lua54": "Lua 5.4.6  Copyright (C) 1994-2023 Lua.org, PUC-Rio"
+  },
+  "comparisons": 432,
+  "attemptedComparisons": 432,
+  "skippedComparisons": 0,
+  "fixtures": 36,
+  "profiles": [
+    "standard",
+    "advanced",
+    "maximum"
+  ],
+  "results": [
+    {
+      "runtime": "lua51",
+      "fixture": "basic",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "basic",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "basic",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "closure cells",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "closure cells",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "closure cells",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "mutual recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "mutual recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "mutual recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "shadow initializers",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "shadow initializers",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "shadow initializers",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parallel assignment",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parallel assignment",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parallel assignment",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "assignment effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "assignment effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "assignment effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil multireturn",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil multireturn",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil multireturn",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "parenthesized varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "top-level varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "top-level varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "top-level varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "vararg forwarding",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "vararg forwarding",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "vararg forwarding",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table list expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table list expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table list expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "short circuit",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "short circuit",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "short circuit",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loops and break",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loops and break",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loops and break",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "negative step",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "negative step",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "negative step",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "generic iteration",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "generic iteration",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "generic iteration",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "repeat closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "repeat closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "repeat closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "methods",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "methods",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "methods",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "function paths",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "function paths",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "function paths",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "metatables",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "metatables",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "metatables",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "operators",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "operators",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "operators",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "binary unicode strings",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "binary unicode strings",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "binary unicode strings",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "float semantics",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "float semantics",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "float semantics",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "coroutines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "coroutines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "coroutines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "protected calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "protected calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "protected calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "module return",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "module return",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "module return",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "reentrant callbacks",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "reentrant callbacks",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "reentrant callbacks",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "global writes",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "global writes",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "global writes",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "advanced straight lines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "advanced straight lines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "advanced straight lines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "branch side effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "branch side effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "branch side effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil assignment expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil assignment expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "nil assignment expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table constructor evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table constructor evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "table constructor evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop bound evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop bound evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "loop bound evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "boolean and nil keys",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "boolean and nil keys",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua51",
+      "fixture": "boolean and nil keys",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "basic",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "basic",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "basic",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "closure cells",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "closure cells",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "closure cells",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "mutual recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "mutual recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "mutual recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "shadow initializers",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "shadow initializers",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "shadow initializers",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parallel assignment",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parallel assignment",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parallel assignment",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "assignment effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "assignment effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "assignment effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil multireturn",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil multireturn",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil multireturn",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "parenthesized varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "top-level varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "top-level varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "top-level varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "vararg forwarding",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "vararg forwarding",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "vararg forwarding",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table list expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table list expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table list expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "short circuit",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "short circuit",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "short circuit",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loops and break",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loops and break",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loops and break",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "negative step",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "negative step",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "negative step",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "generic iteration",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "generic iteration",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "generic iteration",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "repeat closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "repeat closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "repeat closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "methods",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "methods",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "methods",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "function paths",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "function paths",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "function paths",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "metatables",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "metatables",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "metatables",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "operators",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "operators",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "operators",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "binary unicode strings",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "binary unicode strings",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "binary unicode strings",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "float semantics",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "float semantics",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "float semantics",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "coroutines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "coroutines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "coroutines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "protected calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "protected calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "protected calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "module return",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "module return",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "module return",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "reentrant callbacks",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "reentrant callbacks",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "reentrant callbacks",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "global writes",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "global writes",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "global writes",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "advanced straight lines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "advanced straight lines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "advanced straight lines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "branch side effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "branch side effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "branch side effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil assignment expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil assignment expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "nil assignment expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table constructor evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table constructor evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "table constructor evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop bound evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop bound evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "loop bound evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "boolean and nil keys",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "boolean and nil keys",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "boolean and nil keys",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "basic",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "basic",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "basic",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "closure cells",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "closure cells",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "closure cells",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "mutual recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "mutual recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "mutual recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "shadow initializers",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "shadow initializers",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "shadow initializers",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parallel assignment",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parallel assignment",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parallel assignment",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "assignment effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "assignment effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "assignment effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil multireturn",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil multireturn",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil multireturn",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "parenthesized varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "top-level varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "top-level varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "top-level varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "vararg forwarding",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "vararg forwarding",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "vararg forwarding",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table list expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table list expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table list expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "short circuit",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "short circuit",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "short circuit",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loops and break",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loops and break",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loops and break",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "negative step",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "negative step",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "negative step",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "generic iteration",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "generic iteration",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "generic iteration",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "repeat closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "repeat closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "repeat closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "methods",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "methods",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "methods",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "function paths",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "function paths",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "function paths",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "metatables",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "metatables",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "metatables",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "operators",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "operators",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "operators",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "binary unicode strings",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "binary unicode strings",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "binary unicode strings",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "float semantics",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "float semantics",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "float semantics",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "coroutines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "coroutines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "coroutines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "protected calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "protected calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "protected calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "module return",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "module return",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "module return",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "reentrant callbacks",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "reentrant callbacks",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "reentrant callbacks",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "global writes",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "global writes",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "global writes",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "advanced straight lines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "advanced straight lines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "advanced straight lines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "branch side effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "branch side effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "branch side effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil assignment expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil assignment expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "nil assignment expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table constructor evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table constructor evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "table constructor evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop bound evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop bound evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "loop bound evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "boolean and nil keys",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "boolean and nil keys",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "luau",
+      "fixture": "boolean and nil keys",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "basic",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "basic",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "basic",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "closure cells",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "closure cells",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "closure cells",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "mutual recursion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "mutual recursion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "mutual recursion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "shadow initializers",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "shadow initializers",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "shadow initializers",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parallel assignment",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parallel assignment",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parallel assignment",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "assignment effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "assignment effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "assignment effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil multireturn",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil multireturn",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil multireturn",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "parenthesized varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "top-level varargs",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "top-level varargs",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "top-level varargs",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "vararg forwarding",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "vararg forwarding",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "vararg forwarding",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table list expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table list expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table list expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "short circuit",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "short circuit",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "short circuit",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loops and break",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loops and break",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loops and break",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "negative step",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "negative step",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "negative step",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "generic iteration",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "generic iteration",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "generic iteration",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "repeat closures",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "repeat closures",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "repeat closures",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "methods",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "methods",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "methods",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "function paths",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "function paths",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "function paths",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "metatables",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "metatables",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "metatables",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "operators",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "operators",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "operators",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "binary unicode strings",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "binary unicode strings",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "binary unicode strings",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "float semantics",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "float semantics",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "float semantics",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "coroutines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "coroutines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "coroutines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "protected calls",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "protected calls",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "protected calls",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "module return",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "module return",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "module return",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "reentrant callbacks",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "reentrant callbacks",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "reentrant callbacks",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "global writes",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "global writes",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "global writes",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "advanced straight lines",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "advanced straight lines",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "advanced straight lines",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "branch side effects",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "branch side effects",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "branch side effects",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil assignment expansion",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil assignment expansion",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "nil assignment expansion",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table constructor evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table constructor evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "table constructor evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop bound evaluation",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop bound evaluation",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "loop bound evaluation",
+      "profile": "maximum",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "boolean and nil keys",
+      "profile": "standard",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "boolean and nil keys",
+      "profile": "advanced",
+      "passed": true
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "boolean and nil keys",
+      "profile": "maximum",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "plannedComparisons": 432,
+  "passed": true
+}

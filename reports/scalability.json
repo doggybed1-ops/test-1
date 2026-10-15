@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15T00:56:46.954Z",
+  "passed": true,
+  "statements": 10000,
+  "runtime": "Actual Lua 5.1 via WASM",
+  "worker": {
+    "oldGenerationMiB": 192,
+    "youngGenerationMiB": 32,
+    "deadlineMs": 15000
+  },
+  "stats": {
+    "vmInstructions": 90014,
+    "vmFunctions": 1,
+    "vmRegisters": 60007,
+    "vmCapturedCells": 0,
+    "vmBranches": 0,
+    "encryptedConstants": 100,
+    "encryptedStrings": 0,
+    "encryptedNumbers": 100,
+    "cachedConstants": true,
+    "iteratorGuards": 0,
+    "vmDataFactories": 92,
+    "opcodeVariants": 50,
+    "inputBytes": 149026,
+    "outputBytes": 5064211,
+    "astNodes": 50006,
+    "durationMs": 715.05
+  },
+  "equivalent": true,
+  "notes": [
+    "One synthetic large-program case, not a guarantee for all inputs at the source-size limit.",
+    "Data factories avoid Lua 5.1 per-function constant-table limits.",
+    "Complete output grammar validated without retaining completed data-table ASTs."
+  ]
+}

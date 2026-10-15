@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-15T00:57:46.545Z",
+  "example": "examples/counter.lua",
+  "results": [
+    {
+      "profile": "standard",
+      "passes": [
+        "scope-aware-renaming",
+        "per-string-byte-encryption",
+        "lazy-string-cache",
+        "exact-constant-pooling",
+        "exact-integer-expressions"
+      ],
+      "stats": {
+        "identifiersRenamed": 7,
+        "identifierReferencesRenamed": 12,
+        "stringsProtected": 2,
+        "propertiesProtected": 0,
+        "numbersProtected": 4,
+        "integerExpressions": 4,
+        "exactNumericLiterals": 0,
+        "flattenedBlocks": 0,
+        "virtualStates": 0,
+        "loweredLoops": 0,
+        "opaquePredicates": 0,
+        "deadStates": 0,
+        "controlFlowBarriers": 0,
+        "inputBytes": 329,
+        "outputBytes": 1747,
+        "astNodes": 50,
+        "durationMs": 7.12
+      },
+      "randomized": true,
+      "originalLiteralAbsent": true,
+      "equivalentInLua51": true
+    },
+    {
+      "profile": "advanced",
+      "passes": [
+        "scope-aware-renaming",
+        "per-string-byte-encryption",
+        "lazy-string-cache",
+        "encrypted-property-indirection",
+        "exact-constant-pooling",
+        "exact-integer-expressions",
+        "randomized-cfg-state-machines",
+        "opaque-dispatch-entry",
+        "unreachable-states"
+      ],
+      "stats": {
+        "identifiersRenamed": 7,
+        "identifierReferencesRenamed": 12,
+        "stringsProtected": 2,
+        "propertiesProtected": 1,
+        "numbersProtected": 4,
+        "integerExpressions": 4,
+        "exactNumericLiterals": 0,
+        "flattenedBlocks": 2,
+        "virtualStates": 7,
+        "loweredLoops": 0,
+        "opaquePredicates": 2,
+        "deadStates": 2,
+        "controlFlowBarriers": 4,
+        "inputBytes": 329,
+        "outputBytes": 2573,
+        "astNodes": 50,
+        "durationMs": 3.81
+      },
+      "randomized": true,
+      "originalLiteralAbsent": true,
+      "equivalentInLua51": true
+    },
+    {
+      "profile": "maximum",
+      "passes": [
+        "lexical-cell-compilation",
+        "encrypted-constant-pool",
+        "register-vm",
+        "randomized-opcodes",
+        "masked-operands",
+        "shuffled-control-flow",
+        "opaque-state-predicates",
+        "lazy-constant-cache"
+      ],
+      "stats": {
+        "vmInstructions": 99,
+        "vmFunctions": 3,
+        "vmRegisters": 58,
+        "vmCapturedCells": 1,
+        "vmBranches": 3,
+        "encryptedConstants": 8,
+        "encryptedStrings": 5,
+        "encryptedNumbers": 3,
+        "cachedConstants": true,
+        "iteratorGuards": 0,
+        "vmDataFactories": 0,
+        "opcodeVariants": 50,
+        "inputBytes": 329,
+        "outputBytes": 15861,
+        "astNodes": 50,
+        "durationMs": 7.31
+      },
+      "randomized": true,
+      "originalLiteralAbsent": true,
+      "equivalentInLua51": true
+    }
+  ],
+  "interpretation": "Structural compiler evidence only. No competitor or resistance-to-reversal benchmark has been performed."
+}

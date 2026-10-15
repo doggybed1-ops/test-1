@@ -1,0 +1,14 @@
+{
+  "localDate": "2026-10-14",
+  "timezone": "America/Chicago",
+  "releaseStatus": "engineering-preview",
+  "regression": { "passed": 82, "failed": 0, "skipped": 0, "log": "regression.txt" },
+  "compatibility": { "passed": 432, "failed": 0, "skipped": 0, "runtimes": ["Lua 5.1 WASM", "Fengari Lua 5.3", "Luau Asyncify WASM", "Native Lua 5.4.6"], "report": "compatibility.json" },
+  "productionBuild": { "passed": true, "vite": "7.3.7" },
+  "productionDependencyAudit": { "knownVulnerabilities": 0, "command": "npm audit --omit=dev --json" },
+  "largeProgram": { "passed": true, "sourceBytes": 149026, "instructions": 90014, "executedIn": "Lua 5.1", "report": "scalability.json" },
+  "browserQA": { "passed": false, "status": "blocked", "reason": "Local servers were unreachable from the browser in this execution environment; no browser success or screenshots claimed." },
+  "deployment": { "performed": false, "reason": "No Netlify deployment target, processing-host URL, or credentials supplied." },
+  "commercialParity": { "established": false },
+  "remainingReleaseWork": ["Full Luau parser and version-specific Lua extensions", "Real-world Roblox integration corpus", "Browser visual and interaction verification", "Production deployment verification", "Security and adversarial reverse-engineering evaluation", "Dedicated Lua 5.2 execution validation"]
+}

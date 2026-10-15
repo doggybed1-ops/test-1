@@ -1,0 +1,33 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+import {mkdir,writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({headless:true,channel:process.env.PLAYWRIGHT_CHANNEL||'msedge'});
+const page=await browser.newPage({viewport:{width:1440,height:1100}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await mkdir('reports',{recursive:true});
+try {
+  await page.goto(process.env.UI_URL||'http://127.0.0.1:5173/');
+  await page.locator('.monaco-editor').first().waitFor();
+  await page.locator('#service-state').filter({hasText:/online|connected|ready|available/i}).waitFor({timeout:15000});
+  assert.equal(await page.locator('#copy-output').isEnabled(),false);
+  await page.locator('#obfuscate').click();
+  await page.locator('#output-tag').filter({hasText:/protected|complete|built|validated/i}).waitFor({timeout:20000});
+  assert.equal(await page.locator('#copy-output').isEnabled(),true);
+  assert.ok((await page.locator('#applied-passes').innerText()).includes('register'));
+  const downloadPromise=page.waitForEvent('download');await page.locator('#download-output').click();const download=await downloadPromise;
+  assert.ok(download.suggestedFilename().endsWith('.protected.lua'));
+  await page.screenshot({path:'reports/workbench-desktop.png',fullPage:true});
+  await page.locator('[data-dialog="docs-dialog"]').first().click();assert.equal(await page.locator('#docs-dialog').isVisible(),true);
+  await page.locator('#docs-dialog .close-dialog').click();
+  await page.locator('[data-profile="advanced"]').click();assert.equal(await page.locator('#download-output').isEnabled(),false);
+  await page.locator('#file-input').setInputFiles({name:'unsupported.lua',mimeType:'text/plain',buffer:Buffer.from('local =')});
+  await page.locator('#obfuscate').click();await page.locator('#error-box').waitFor({state:'visible'});assert.match(await page.locator('#error-title').innerText(),/syntax|compile|error/i);
+  await page.locator('#file-input').setInputFiles({name:'module.lua',mimeType:'text/plain',buffer:Buffer.from('local secret="private" local n=3 n=n+2 print(secret) return n')});
+  await page.locator('#obfuscate').click();await page.locator('#copy-output').waitFor({state:'visible'});
+  await page.waitForFunction(()=>!document.querySelector('#copy-output').disabled);
+  await page.setViewportSize({width:390,height:844});
+  await page.screenshot({path:'reports/workbench-mobile.png',fullPage:true});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile layout overflows horizontally');
+  assert.deepEqual(errors,[]);await writeFile('reports/ui.json',JSON.stringify({passed:true,checks:['Monaco loaded','API connected','Maximum compile','Actual pass manifest','Download','Documentation dialog','Stale build invalidation','Upload','Syntax error','Advanced compile','390px mobile layout'],browser:'Microsoft Edge',pageErrors:errors},null,2));
+  console.log('UI smoke checks passed. Screenshots in reports/.');
+}finally{await browser.close();}
